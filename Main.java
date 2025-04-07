@@ -8,11 +8,15 @@ class Main{
         Employee employee1=new Employee(1,"rushikesh shinde" ,"Pune");
         Employee employee2=new Employee(2, "krishna dudhate", "Parbhani");
         Employee employee3=new Employee(3, "Yash Solanke", "Nanded");
+        Employee employee4=new Employee(4, "Om Jogdand", "Mumbai");
+
        
         List<Employee> employees=new ArrayList<>();
         employees.add(employee1);
         employees.add(employee2);
         employees.add(employee3);
+        employees.add(employee4);
+
         
         for(Employee employee:employees){
             System.out.println(employee);
